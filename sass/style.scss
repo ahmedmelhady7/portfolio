@@ -1,0 +1,14 @@
+/*importing the compass module that include the css to reset browser defaults */
+@import "compass/reset";
+/*importing the compass module that will include mixins */
+@import "compass/css3";
+ 
+body {
+    color: #333;
+}
+
+h1 {
+    font-family: Bitter, Georgia, serif;
+    /* if you want to use the italic version
+    font-style: italic;*/
+}
